@@ -1,0 +1,11 @@
+# Xcode: per-user state and local builds (build-mac.sh builds into build/)
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+.DS_Store
+
+# Never commit playlists or exported settings that may contain logins
+*.m3u
+*.m3u8
+settings.json
